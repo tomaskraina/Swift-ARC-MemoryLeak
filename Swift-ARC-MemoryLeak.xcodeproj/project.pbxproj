@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3A4D7A221A836DE400D77267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A211A836DE400D77267 /* AppDelegate.swift */; };
-		3A4D7A241A836DE400D77267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A231A836DE400D77267 /* ViewController.swift */; };
+		3A4D7A241A836DE400D77267 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A231A836DE400D77267 /* RootViewController.swift */; };
 		3A4D7A271A836DE400D77267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A251A836DE400D77267 /* Main.storyboard */; };
 		3A4D7A291A836DE400D77267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A281A836DE400D77267 /* Images.xcassets */; };
 		3A4D7A2C1A836DE400D77267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */; };
 		3A4D7A381A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */; };
+		3A4D7A421A8370B900D77267 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A411A8370B900D77267 /* ModalViewController.swift */; };
+		3A4D7A441A83712B00D77267 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A431A83712B00D77267 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		3A4D7A1C1A836DE400D77267 /* Swift-ARC-MemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-ARC-MemoryLeak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4D7A201A836DE400D77267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4D7A211A836DE400D77267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A4D7A231A836DE400D77267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A4D7A231A836DE400D77267 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		3A4D7A261A836DE400D77267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A4D7A281A836DE400D77267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3A4D7A2B1A836DE400D77267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3A4D7A311A836DE400D77267 /* Swift-ARC-MemoryLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-ARC-MemoryLeakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4D7A361A836DE400D77267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ARC_MemoryLeakTests.swift; sourceTree = "<group>"; };
+		3A4D7A411A8370B900D77267 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		3A4D7A431A83712B00D77267 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				3A4D7A211A836DE400D77267 /* AppDelegate.swift */,
-				3A4D7A231A836DE400D77267 /* ViewController.swift */,
+				3A4D7A231A836DE400D77267 /* RootViewController.swift */,
+				3A4D7A411A8370B900D77267 /* ModalViewController.swift */,
+				3A4D7A431A83712B00D77267 /* Model.swift */,
 				3A4D7A251A836DE400D77267 /* Main.storyboard */,
 				3A4D7A281A836DE400D77267 /* Images.xcassets */,
 				3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A4D7A241A836DE400D77267 /* ViewController.swift in Sources */,
+				3A4D7A241A836DE400D77267 /* RootViewController.swift in Sources */,
+				3A4D7A421A8370B900D77267 /* ModalViewController.swift in Sources */,
 				3A4D7A221A836DE400D77267 /* AppDelegate.swift in Sources */,
+				3A4D7A441A83712B00D77267 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = "Swift-ARC-MemoryLeak/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
