@@ -1,5 +1,5 @@
 //
-//  ModalViewController.swift
+//  DetailViewController.swift
 //  Swift-ARC-MemoryLeak
 //
 //  Created by Tomas Kraina on 05/02/2015.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ModalViewController: UIViewController, ModelDelegate {
+class DetailViewController: UIViewController, ModelDelegate {
     
     lazy var model: Model = Model(delegate: self)
     
@@ -44,5 +44,9 @@ class ModalViewController: UIViewController, ModelDelegate {
     
     func modelDidSomething(data: AnyObject) {
         println("\(self) - \(__FUNCTION__)")
+        
+        let alert = UIAlertController(title: "Done!", message: nil, preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
+        self.presentViewController(alert, animated: true, completion: nil)
     }
 }

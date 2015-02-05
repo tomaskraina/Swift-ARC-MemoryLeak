@@ -12,7 +12,7 @@ import Foundation
     optional func modelDidSomething(data: AnyObject)
 }
 
-class Model {
+class Model: NSObject {
     
     weak var delegate: ModelDelegate?
     
@@ -22,7 +22,7 @@ class Model {
     
     func doSomething () {
         // Do something
-        print("Model: doing something")
+        println("\(self) - \(__FUNCTION__)")
         
         // Check if delegate implements the method
         // If not do an early return

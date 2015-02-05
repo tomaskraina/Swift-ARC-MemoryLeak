@@ -13,7 +13,7 @@
 		3A4D7A291A836DE400D77267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A281A836DE400D77267 /* Images.xcassets */; };
 		3A4D7A2C1A836DE400D77267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */; };
 		3A4D7A381A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */; };
-		3A4D7A421A8370B900D77267 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A411A8370B900D77267 /* ModalViewController.swift */; };
+		3A4D7A421A8370B900D77267 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A411A8370B900D77267 /* DetailViewController.swift */; };
 		3A4D7A441A83712B00D77267 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A431A83712B00D77267 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		3A4D7A311A836DE400D77267 /* Swift-ARC-MemoryLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-ARC-MemoryLeakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4D7A361A836DE400D77267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ARC_MemoryLeakTests.swift; sourceTree = "<group>"; };
-		3A4D7A411A8370B900D77267 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		3A4D7A411A8370B900D77267 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3A4D7A431A83712B00D77267 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			children = (
 				3A4D7A211A836DE400D77267 /* AppDelegate.swift */,
 				3A4D7A231A836DE400D77267 /* RootViewController.swift */,
-				3A4D7A411A8370B900D77267 /* ModalViewController.swift */,
+				3A4D7A411A8370B900D77267 /* DetailViewController.swift */,
 				3A4D7A431A83712B00D77267 /* Model.swift */,
 				3A4D7A251A836DE400D77267 /* Main.storyboard */,
 				3A4D7A281A836DE400D77267 /* Images.xcassets */,
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4D7A241A836DE400D77267 /* RootViewController.swift in Sources */,
-				3A4D7A421A8370B900D77267 /* ModalViewController.swift in Sources */,
+				3A4D7A421A8370B900D77267 /* DetailViewController.swift in Sources */,
 				3A4D7A221A836DE400D77267 /* AppDelegate.swift in Sources */,
 				3A4D7A441A83712B00D77267 /* Model.swift in Sources */,
 			);
