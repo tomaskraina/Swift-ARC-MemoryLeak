@@ -11,9 +11,9 @@ if self.delegate?.modelDidSomething? == nil { return }
 
 The App consists of two view controllers inside a navigation controller: `RootViewController` and `DetailViewController`.
 
-1) Tap button `Show DetailViewController`
-2) Tap button `Perform Model Action`
-3) Go back to `Root View Controller`
+1. Tap button `Show DetailViewController`
+2. Tap button `Perform Model Action`
+3. Go back to `Root View Controller`
 
 You can notice that the console log looks like this:
 
@@ -29,8 +29,8 @@ You can notice that the console log looks like this:
 
 Now, try to the same just without tapping button `Perform Model Action`:
 
-1) Tap button `Show DetailViewController`
-2) Go back to `Root View Controller`
+4. Tap button `Show DetailViewController`
+5. Go back to `Root View Controller`
 
 The whole console log looks like this:
 
@@ -53,7 +53,7 @@ Note that the second time the `DetailViewController` was released from memory (`
 
 A quick profiling session in `Instruments.app` shows that the first instance of `DetailViewController` is still hanging in memory (together with its `Model` instance).
 
-![alt text](https://github.com/tomaskraina/Swift-ARC-MemoryLeak/raw/master/InstrumentsScreenshot1.png "")
+![alt text](https://github.com/tomaskraina/Swift-ARC-MemoryLeak/raw/master/InstrumentsScreenshot1.png "Instruments w")
 ![alt text](https://github.com/tomaskraina/Swift-ARC-MemoryLeak/raw/master/InstrumentsScreenshot2.png "")
 ![alt text](https://github.com/tomaskraina/Swift-ARC-MemoryLeak/raw/master/InstrumentsScreenshot3.png "")
 
