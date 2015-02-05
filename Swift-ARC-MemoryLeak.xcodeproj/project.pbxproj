@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4D7A221A836DE400D77267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A211A836DE400D77267 /* AppDelegate.swift */; };
+		3A4D7A241A836DE400D77267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A231A836DE400D77267 /* ViewController.swift */; };
+		3A4D7A271A836DE400D77267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A251A836DE400D77267 /* Main.storyboard */; };
+		3A4D7A291A836DE400D77267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A281A836DE400D77267 /* Images.xcassets */; };
+		3A4D7A2C1A836DE400D77267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */; };
+		3A4D7A381A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A4D7A321A836DE400D77267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A4D7A141A836DE400D77267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4D7A1B1A836DE400D77267;
+			remoteInfo = "Swift-ARC-MemoryLeak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A4D7A1C1A836DE400D77267 /* Swift-ARC-MemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-ARC-MemoryLeak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4D7A201A836DE400D77267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4D7A211A836DE400D77267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A4D7A231A836DE400D77267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A4D7A261A836DE400D77267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A4D7A281A836DE400D77267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A4D7A2B1A836DE400D77267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3A4D7A311A836DE400D77267 /* Swift-ARC-MemoryLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-ARC-MemoryLeakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4D7A361A836DE400D77267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ARC_MemoryLeakTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A4D7A191A836DE400D77267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D7A2E1A836DE400D77267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4D7A131A836DE400D77267 = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A1E1A836DE400D77267 /* Swift-ARC-MemoryLeak */,
+				3A4D7A341A836DE400D77267 /* Swift-ARC-MemoryLeakTests */,
+				3A4D7A1D1A836DE400D77267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4D7A1D1A836DE400D77267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A1C1A836DE400D77267 /* Swift-ARC-MemoryLeak.app */,
+				3A4D7A311A836DE400D77267 /* Swift-ARC-MemoryLeakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4D7A1E1A836DE400D77267 /* Swift-ARC-MemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A211A836DE400D77267 /* AppDelegate.swift */,
+				3A4D7A231A836DE400D77267 /* ViewController.swift */,
+				3A4D7A251A836DE400D77267 /* Main.storyboard */,
+				3A4D7A281A836DE400D77267 /* Images.xcassets */,
+				3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */,
+				3A4D7A1F1A836DE400D77267 /* Supporting Files */,
+			);
+			path = "Swift-ARC-MemoryLeak";
+			sourceTree = "<group>";
+		};
+		3A4D7A1F1A836DE400D77267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A201A836DE400D77267 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A4D7A341A836DE400D77267 /* Swift-ARC-MemoryLeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A371A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift */,
+				3A4D7A351A836DE400D77267 /* Supporting Files */,
+			);
+			path = "Swift-ARC-MemoryLeakTests";
+			sourceTree = "<group>";
+		};
+		3A4D7A351A836DE400D77267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A4D7A361A836DE400D77267 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4D7A1B1A836DE400D77267 /* Swift-ARC-MemoryLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4D7A3B1A836DE400D77267 /* Build configuration list for PBXNativeTarget "Swift-ARC-MemoryLeak" */;
+			buildPhases = (
+				3A4D7A181A836DE400D77267 /* Sources */,
+				3A4D7A191A836DE400D77267 /* Frameworks */,
+				3A4D7A1A1A836DE400D77267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-ARC-MemoryLeak";
+			productName = "Swift-ARC-MemoryLeak";
+			productReference = 3A4D7A1C1A836DE400D77267 /* Swift-ARC-MemoryLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A4D7A301A836DE400D77267 /* Swift-ARC-MemoryLeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4D7A3E1A836DE400D77267 /* Build configuration list for PBXNativeTarget "Swift-ARC-MemoryLeakTests" */;
+			buildPhases = (
+				3A4D7A2D1A836DE400D77267 /* Sources */,
+				3A4D7A2E1A836DE400D77267 /* Frameworks */,
+				3A4D7A2F1A836DE400D77267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4D7A331A836DE400D77267 /* PBXTargetDependency */,
+			);
+			name = "Swift-ARC-MemoryLeakTests";
+			productName = "Swift-ARC-MemoryLeakTests";
+			productReference = 3A4D7A311A836DE400D77267 /* Swift-ARC-MemoryLeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A4D7A141A836DE400D77267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tom Kraina";
+				TargetAttributes = {
+					3A4D7A1B1A836DE400D77267 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3A4D7A301A836DE400D77267 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3A4D7A1B1A836DE400D77267;
+					};
+				};
+			};
+			buildConfigurationList = 3A4D7A171A836DE400D77267 /* Build configuration list for PBXProject "Swift-ARC-MemoryLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A4D7A131A836DE400D77267;
+			productRefGroup = 3A4D7A1D1A836DE400D77267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4D7A1B1A836DE400D77267 /* Swift-ARC-MemoryLeak */,
+				3A4D7A301A836DE400D77267 /* Swift-ARC-MemoryLeakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A4D7A1A1A836DE400D77267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D7A271A836DE400D77267 /* Main.storyboard in Resources */,
+				3A4D7A2C1A836DE400D77267 /* LaunchScreen.xib in Resources */,
+				3A4D7A291A836DE400D77267 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D7A2F1A836DE400D77267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A4D7A181A836DE400D77267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D7A241A836DE400D77267 /* ViewController.swift in Sources */,
+				3A4D7A221A836DE400D77267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4D7A2D1A836DE400D77267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D7A381A836DE400D77267 /* Swift_ARC_MemoryLeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A4D7A331A836DE400D77267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4D7A1B1A836DE400D77267 /* Swift-ARC-MemoryLeak */;
+			targetProxy = 3A4D7A321A836DE400D77267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A4D7A251A836DE400D77267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D7A261A836DE400D77267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A4D7A2A1A836DE400D77267 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D7A2B1A836DE400D77267 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A4D7A391A836DE400D77267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A4D7A3A1A836DE400D77267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4D7A3C1A836DE400D77267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-ARC-MemoryLeak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A4D7A3D1A836DE400D77267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-ARC-MemoryLeak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A4D7A3F1A836DE400D77267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-ARC-MemoryLeakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-ARC-MemoryLeak.app/Swift-ARC-MemoryLeak";
+			};
+			name = Debug;
+		};
+		3A4D7A401A836DE400D77267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-ARC-MemoryLeakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-ARC-MemoryLeak.app/Swift-ARC-MemoryLeak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4D7A171A836DE400D77267 /* Build configuration list for PBXProject "Swift-ARC-MemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D7A391A836DE400D77267 /* Debug */,
+				3A4D7A3A1A836DE400D77267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4D7A3B1A836DE400D77267 /* Build configuration list for PBXNativeTarget "Swift-ARC-MemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D7A3C1A836DE400D77267 /* Debug */,
+				3A4D7A3D1A836DE400D77267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A4D7A3E1A836DE400D77267 /* Build configuration list for PBXNativeTarget "Swift-ARC-MemoryLeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4D7A3F1A836DE400D77267 /* Debug */,
+				3A4D7A401A836DE400D77267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A4D7A141A836DE400D77267 /* Project object */;
+}
